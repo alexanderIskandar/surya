@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tambah Artikel</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img_web">
+                <img src="img/logo-devitapp.png" />
+            </div>
+            <div class="title">
+                <h1>Belajar HTML</h1>
+            </div>
+            <div class="clear"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admin.html">Artikel</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="input">
+                 <form>
+                    <fieldset>
+                    <legend><b>Tambah Artikel</b></legend>
+                        <label>Judul:</label>
+                        <input type="text" name="judul" placeholder="judul kamu..." />
+                        <br><br>
+                        <label>Gambar</label><br>
+                        <input type="file" class="form-control" name="foto">
+                        <br><br>
+                        <label>Kontent:</label><br>
+                        <textarea name="konten" cols="30" rows="10" placeholder="Masukkan Konten"></textarea>
+                        <br><br>
+                        <input type="button" class="button" name="Save" value="Save" />
+                    </fieldset>
+                </form>
+            </div>
+            <br><br>
+            <div class="tabel">
+                <table border="1" cellspacing="0" >
+                  <tr>
+                    <th>Judul</th>
+                    <th>Gambar</th> 
+                    <th>Kontent</th>
+                    <th>Aksi</th>
+                  </tr>
+                  <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                    <td>
+                      <button class="button">Hapus</button>
+                      <button class="button delete">Delete</button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                    <td>
+                      <button class="button">Hapus</button>
+                      <button class="button delete">Delete</button>
+                    </td>
+                  </tr>
+                </table>
+            </div>
+        </section>
+        <footer>
+            <!-- Ini nanti dibuat footer yang biasanya dipake untuk credit-->
+            &copy; 2019 Belajar Web || DevITApp
+        </footer>
+
+    </div>
+</body>
+</html>
